@@ -1,4 +1,4 @@
-name "docker action"
+name: "docker action"
 inputs:
   text:
     description: "message to print"
