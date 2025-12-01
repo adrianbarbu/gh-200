@@ -1,0 +1,16 @@
+on:
+  [push, workflow_dispatch]
+  
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: checkout repo
+        uses: actions/checkout
+
+      - name: javascript action
+        uses: ./.github/actions/js-action
+        with:
+          message: "hello from the other side"  

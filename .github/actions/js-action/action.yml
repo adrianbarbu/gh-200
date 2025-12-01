@@ -1,0 +1,8 @@
+name: "JS Example Action"
+description: "A simple JavaScript Action"
+inputs:
+  message:
+    required: true
+runs:
+  using: "node20"
+  main: "index.js"
