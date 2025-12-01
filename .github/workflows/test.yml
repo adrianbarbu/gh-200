@@ -13,4 +13,9 @@ jobs:
       - name: javascript action
         uses: ./.github/actions/js-action
         with:
-          message: "hello from the other side"  
+          message: "hello from the other side"
+          
+      - name: docker action
+        uses: ./.github/actions/docker-action
+        with:
+          text: "hello from docker action"    

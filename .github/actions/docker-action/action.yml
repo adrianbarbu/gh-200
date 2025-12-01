@@ -1,0 +1,9 @@
+name "docker action"
+inputs:
+  text:
+    description: "message to print"
+    required: true
+    default: "hello from docker"
+runs:
+  using: "docker"
+  image: "Dockerfile"
