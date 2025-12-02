@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
-      - name: list variables 2 ${{GITHUB_REF}} 3 ${{github.ref}}
+      - name: list variables 2 ${{GITHUB_REF}} 
         run: |
           echo "GITHUB_REF2: $GITHUB_REF"
           echo "GITHUB_REF3: ${{github.ref}}"
