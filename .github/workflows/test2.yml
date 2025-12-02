@@ -9,7 +9,6 @@ jobs:
         uses: actions/checkout@v4
       - name: list variables 2 ${{GITHUB_REF}} 3 ${{github.ref}}
         run: |
-          echo "GITHUB_REF1: ${{GITHUB_REF}}"
           echo "GITHUB_REF2: $GITHUB_REF"
           echo "GITHUB_REF3: ${{github.ref}}"
           echo "GITHUB_TAG: $GITHUB_TAG"
