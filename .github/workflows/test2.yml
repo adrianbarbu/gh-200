@@ -8,5 +8,6 @@ jobs:
     - name: checkout
       uses: actions/checkout@v4
     - name: list variables
-      run: echo $GITHUB_BRANCH
-      
+      run: |
+       echo ${{GITHUB_BRANCH}}
+       echo ${{GITHUB_REF}}
