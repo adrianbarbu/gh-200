@@ -20,3 +20,4 @@ jobs:
           echo "GITHUB_ACTION: $GITHUB_ACTION"
           echo "GITHUB_RUN_NUMBER: $GITHUB_RUN_NUMBER"
           echo "GITHUB_RUN_ID: $GITHUB_RUN_ID"
+          echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
