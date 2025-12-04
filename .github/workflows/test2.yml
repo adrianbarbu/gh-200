@@ -22,3 +22,4 @@ jobs:
           echo "GITHUB_RUN_ID: $GITHUB_RUN_ID"
           echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
           echo "GITHUB_TOKEN: $GITHUB_TOKEN"
+        shell: python   
